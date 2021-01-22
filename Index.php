@@ -124,7 +124,137 @@ yield $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'me
 
 
 
-
+   if($text=='bk' or $text=='بکیرم'){
+    yield $MadelineProto->messages->sendMessage(['peer' => $peer, 'message' => '
+    😂😂😂
+    😂         😂
+    😂           😂
+    😂        😂
+    😂😂😂
+    😂         😂
+    😂           😂
+    😂           😂
+    😂        😂
+    😂😂😂']);
+    yield $MadelineProto->messages->editMessage(['peer' => $peer, 'id' => $msg_id +1, 'message' => '
+    😂         😂
+    😂       😂
+    😂     😂
+    😂   😂
+    😂😂
+    😂   😂
+    😂      😂
+    😂        😂
+    😂          😂
+    😂            😂']);
+    yield $MadelineProto->messages->editMessage(['peer' => $peer, 'id' => $msg_id +1, 'message' => '
+    😂😂😂          😂         😂
+    😂         😂      😂       😂
+    😂           😂    😂     😂
+    😂        😂       😂   😂
+    😂😂😂          😂😂
+    😂         😂      😂   😂
+    😂           😂    😂      😂
+    😂           😂    😂        😂
+    😂        😂       😂          😂
+    😂😂😂          😂            😂']);
+        
+    }
+    // Crator : SjD , Mr Swift , SylvanasWindruner
+    if ($text == 'fosh' or $text == '/fosh') {
+    $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "ک"]);
+    sleep(1);
+    $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "کص"]);
+    sleep(1);
+    $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "کص ع"]);
+    sleep(1);
+    $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "کص عم"]);
+    sleep(1);
+    $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "کص عمت"]);
+    sleep(1);
+    $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "کص عمت :)"]);
+    
+    }
+    // Crator : SjD , Mr Swift , SylvanasWindruner
+         if ($text == 'dost' or $text == '/dost') {
+             $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "د"]);
+             sleep(1);
+             $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "دو"]);
+             sleep(1);
+             $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "دوس"]);
+             sleep(1);
+             $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "دوست"]);
+             sleep(1);
+             $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "دوستت"]);
+             sleep(1);
+             $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "دوستت د"]);
+             sleep(1);
+             $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "دوستت دا"]);
+             sleep(1);
+             $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "دوستت دار"]);
+             sleep(1);
+             $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "دوستت دارم"]);
+             sleep(1);
+             $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "دوستت دارم :)"]);
+             sleep(1);
+             $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "❤❤❤❤"]);
+             sleep(1);
+             $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "🤍🤍🤍🤍"]);
+             sleep(1);
+             $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "🥀بدون تو نمیتونم زندگیم"]);
+         }
+    
+         if ($text == 'fosh2' or $text == '/fosh2') {
+             $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "کیرم"]);
+             sleep(1);
+             $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "به"]);
+             sleep(1);
+             $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "کص"]);
+             sleep(1);
+             $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "مادرت"]);
+             sleep(1);
+             $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "هرجا"]);
+             sleep(1);
+             $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "که"]);
+             sleep(1);
+             $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "هستی"]);
+             sleep(1);
+             $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "کیرم به کص مادرت هرجا که هستی"]);
+         }
+    // Crator : SjD , Mr Swift , SylvanasWindruner
+         if ($text == 'rel' or $text == '/rel' or $text == '/رل') {
+             $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "ر"]);
+             sleep(1);
+             $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "رل"]);
+             sleep(1);
+             $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "رل پ"]);
+             sleep(1);
+             $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => " رل پی"]);
+             sleep(1);
+             $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "رل پیو"]);
+             sleep(1);
+             $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "رل پیوی"]);
+             sleep(1);
+         }
+    
+         if ($text == 'zan' or $text == '/zan' or $text == '/زن') {
+             $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "ز"]);
+             sleep(1);
+             $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "زن"]);
+             sleep(1);
+             $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "زنم "]);
+             sleep(1);
+             $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => " زنم م"]);
+             sleep(1);
+             $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "زنم می"]);
+             sleep(1);
+             $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "زنم میش"]);
+             sleep(1);
+             $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "زنم میشی"]);
+             sleep(1);
+             $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "زنم میشی ؟ :)"]);
+    
+         }
 
 
 
