@@ -1273,9 +1273,7 @@ if(isset($data['answering'][$text])){
   }
  }
 } catch(\Exception $e){
-/*if(strpos($e->getMessage(), 'Illegal string offset ') === false){
-yield $MadelineProto->messages->sendMessage(['peer' => 120684101, 'message' => "❗️Error : <code>".$e->getMessage()."</code>"."\n♻️ Line : ".$e->getLine(), 'parse_mode' => 'html']);
-}*/
+
   }
  }
 }
