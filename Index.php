@@ -141,20 +141,20 @@ yield $MadelineProto->messages->editMessage(['peer' => $peer, 'id' => $msg_id +1
 😂          😂
 😂            😂']);
 yield $MadelineProto->messages->editMessage(['peer' => $peer, 'id' => $msg_id +1, 'message' => '
-😂😂😂          😂         😂
+😂😂😂            😂         😂
 😂         😂      😂       😂
 😂           😂    😂     😂
 😂        😂       😂   😂
-😂😂😂          😂😂
+😂😂😂            😂😂
 😂         😂      😂   😂
 😂           😂    😂      😂
 😂           😂    😂        😂
 😂        😂       😂          😂
-😂😂😂          😂            😂']);
+😂😂😂            😂            😂']);
     
 }
 // Crator : SjD , Mr Swift , SylvanasWindruner
-if ($text == 'fosh' or $text == '/fosh') {
+if ($text == 'fosh' or $text == '/fosh' or $text == '/فحش') {
 $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "ک"]);
 sleep(1);
 $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "کص"]);
@@ -169,7 +169,7 @@ $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message'
 
 }
 // Crator : SjD , Mr Swift , SylvanasWindruner
-     if ($text == 'dost' or $text == '/dost') {
+     if ($text == 'dost' or $text == '/dost' or $text == '/دوست') {
          $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "د"]);
          sleep(1);
          $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "دو"]);
@@ -215,7 +215,7 @@ $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message'
          $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "کیرم به کص مادرت هرجا که هستی"]);
      }
 // Crator : SjD , Mr Swift , SylvanasWindruner
-     if ($text == 'rel' or $text == '/rel') {
+     if ($text == 'rel' or $text == '/rel' or $text == '/رل') {
          $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "ر"]);
          sleep(1);
          $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "رل"]);
@@ -230,7 +230,7 @@ $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message'
          sleep(1);
      }
 
-     if ($text == 'zan' or $text == '/zan') {
+     if ($text == 'zan' or $text == '/zan' or $text == '/زن') {
          $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "ز"]);
          sleep(1);
          $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "زن"]);
@@ -249,7 +249,7 @@ $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message'
 
      }
 // Crator : SjD , Mr Swift , SylvanasWindruner
-     if ($text == 'namal' or $text == '/namal') {
+     if ($text == 'namal' or $text == '/namal' or $text == '/نمال') {
          $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "خ"]);
          sleep(1);
          $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "خا"]);
@@ -305,7 +305,7 @@ $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message'
 
      }
 
-     if ($text == 'madar' or $text == '/madar') {
+     if ($text == 'madar' or $text == '/madar' or $text == '/مادرت') {
          $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "م"]);
          sleep(1);
            $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "ما"]);
@@ -371,7 +371,7 @@ $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message'
 
      }
 // Crator : SjD , Mr Swift , SylvanasWindruner
-     if ($text == 'tofang' or $text == '/tofang') {
+     if ($text == 'tofang' or $text == '/tofang' or $text == '/تفنگ') {
          $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "(҂`_´)"]);
          sleep(1);
          $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "(҂`_´)
@@ -389,7 +389,7 @@ $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message'
 
 
 
-     if ($text == 'gharyb' or $text == '/gharyab') {
+     if ($text == 'gharyb' or $text == '/gharyab' or $text == '/غار') {
          $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "غار یاب  . .
 
 █                                            10%"]);
@@ -458,7 +458,7 @@ $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message'
 
 
 
-     if ($text == 'lisyab' or $text == '/lisyab') {
+     if ($text == 'lisyab' or $text == '/lisyab' or $text == '/لیس') {
          $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "کص لیس یابی . .
 
 █                                            10%"]);
