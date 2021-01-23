@@ -129,6 +129,7 @@ yield $MadelineProto->messages->sendMessage(['peer' => $peer, 'message' => '
 😂           😂
 😂        😂
 😂😂😂']);
+sleep(1);
 yield $MadelineProto->messages->editMessage(['peer' => $peer, 'id' => $msg_id +1, 'message' => '
 😂         😂
 😂       😂
@@ -140,6 +141,7 @@ yield $MadelineProto->messages->editMessage(['peer' => $peer, 'id' => $msg_id +1
 😂        😂
 😂          😂
 😂            😂']);
+sleep(1);
 yield $MadelineProto->messages->editMessage(['peer' => $peer, 'id' => $msg_id +1, 'message' => '
 😂😂😂            😂         😂
 😂         😂      😂       😂
@@ -151,6 +153,7 @@ yield $MadelineProto->messages->editMessage(['peer' => $peer, 'id' => $msg_id +1
 😂           😂    😂        😂
 😂        😂       😂          😂
 😂😂😂            😂            😂']);
+
     
 }
 // Crator : SjD , Mr Swift , SylvanasWindruner
