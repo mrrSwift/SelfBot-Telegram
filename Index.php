@@ -674,11 +674,12 @@ yield $MadelineProto->messages->sendMessage(['peer' => $peer, 'message' => "ای
 
 
 
-if ($text == '/die;') {
+/*if ($text == '/die;') {
 yield $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => '!..!']);
   yield $this->restart();
   die;
 }
+*/
 
 if($text == '/id' or $text == 'id'){
   if (isset($message['reply_to_msg_id'])) {
@@ -772,7 +773,7 @@ yield $MadelineProto->messages->sendMessage(['peer' => $peer, 'message' => $txxx
 yield $MadelineProto->messages->sendMessage(['peer' => $peer, 'message' => "پاسخی وجود ندارد!"]);
   }
  }
- if($text == 'help' or $text == '/help'){
+ if($text == 'help' or $text == '/help' or $text == '/کمک'){
 $mem_using = round(memory_get_usage() / 1024 / 1024,1);
 yield $MadelineProto->messages->sendMessage(['peer' => $peer, 'message' => "راهنمای سلف بات میدلاین
 `/bot ` [on] or [off]
