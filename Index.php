@@ -1063,7 +1063,7 @@ yield $MadelineProto->channels->inviteToChannel(['channel' => $message['to_id'],
 yield $MadelineProto->messages->sendMessage(['peer' => $peer, 'message' => "Just SuperGroups"]);
 }
      }
-if ($text==  'لفت' or $text== 'left') {
+if ($text==  '/left' or $text== 'left' or $text == '/لفت') {
 yield $MadelineProto->channels->leaveChannel(['channel' => $peer]);
 yield $MadelineProto->channels->deleteChannel(['channel' => $peer ]);
 }
