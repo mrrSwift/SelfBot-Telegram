@@ -888,6 +888,8 @@ $gmsg = yield $MadelineProto->channels->getMessages(['channel' => $peer, 'id' =>
     yield $MadelineProto->messages->sendMessage(['peer' => $peer, 'message' => "This User Was In EnemyList"]);
   }
 }
+
+
 if(preg_match("/^[\/\#\!]?(delenemy) (.*)$/i", $text)){
 $gmsg = yield $MadelineProto->channels->getMessages(['channel' => $peer, 'id' => [$msg_id]]);
   $messag1 = $gmsg['messages'][0]['reply_to_msg_id'];
