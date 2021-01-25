@@ -3,7 +3,8 @@
  -----------------------------------------
 ## You need the following:
 
--Host 
+-Free Host or Personal Host 
+
  -----------------------------------------
 ## How to use a robot
 
