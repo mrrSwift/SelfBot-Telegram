@@ -1209,6 +1209,8 @@ yield $MadelineProto->messages->sendMessage(['peer' => $peer, 'message' => "Answ
      }
 
 
+
+
  if(preg_match("/^[\/\#\!]?(setenemy) (.*)$/i", $text)){
 preg_match("/^[\/\#\!]?(setenemy) (.*)$/i", $text, $m);
 $mee = yield $MadelineProto->get_full_info($m[2]);
@@ -1288,6 +1290,8 @@ if ($text==  '/left' or $text== 'left' or $text == '/لفت') {
 yield $MadelineProto->channels->leaveChannel(['channel' => $peer]);
 yield $MadelineProto->channels->deleteChannel(['channel' => $peer ]);
 }
+
+
  if(preg_match("/^[\/\#\!]?(flood) ([0-9]+) (.*)$/i", $text)){
 preg_match("/^[\/\#\!]?(flood) ([0-9]+) (.*)$/i", $text, $m);
 $count = $m[2];
@@ -1533,6 +1537,7 @@ if(isset($data['answering'][$text])){
   }
  }
 } catch(\Exception $e){
+
 
   }
  }
