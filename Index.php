@@ -23,13 +23,13 @@ file_put_contents('online.txt','off');
 include 'madeline.php';
 $settings = [];
 $settings['logger']['max_size'] = 5*1024*1024;
-$MadelineProto = new \danog\MadelineProto\API('oghab.madeline', $settings);
+$MadelineProto = new \danog\MadelineProto\API('swift.madeline', $settings);
 $MadelineProto->start();
 
 
 
 
-function closeConnection($message = 'OghabSelf Is Running ...'){
+function closeConnection($message = 'SwiftSelf Is Running ...'){
  if (php_sapi_name() === 'cli' || isset($GLOBALS['exited'])) {
   return;
  }
@@ -578,7 +578,7 @@ $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message'
          sleep(1);
          $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "کص لیس یابی . . . . . . . . . . . . .
 
-█████████████ 100%"]);
+█████████████   100%"]);
          sleep(1);
          $robot = ["• میزان کص لیسی : %100
 
