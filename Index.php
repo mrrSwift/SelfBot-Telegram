@@ -765,7 +765,7 @@ curl_setopt($ch, CURLOPT_NOBODY, TRUE);
 $data = curl_exec($ch);
 $size1 = curl_getinfo($ch, CURLINFO_CONTENT_LENGTH_DOWNLOAD); curl_close($ch);
 $size = round($size1/1024/1024,1);
-if($size <= 150){
+if($size <= 50){
 yield $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => '🌵 Please Wait...
 💡 FileSize : '.$size.'MB']);
 $path = parse_url($link, PHP_URL_PATH);
@@ -787,7 +787,7 @@ $t=time()-$oldtime;
 yield $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => "✅ Uploaded ($t".'s)']);
 unlink("files/$filename");
 } else {
-yield $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => '⚠️ خطا : حجم فایل بیشتر 150MB است!']);
+yield $MadelineProto->messages->editMessage(['peer' => $peer,'id' => $msg_id,'message' => '⚠️ خطا : حجم فایل بیشتر 50 است!']);
 }
 }
 
@@ -812,8 +812,6 @@ yield $MadelineProto->messages->sendMessage(['peer' => $peer, 'message' => "کل
 yield $MadelineProto->messages->sendMessage(['peer' => $peer, 'message' => "این کلمه در لیست پاسخ وجود ندارد :/"]);
  }
 }
-
-
 
 
 
@@ -1445,7 +1443,7 @@ if($type1 == "Clear"){
 file_put_contents('type.txt',$tpp);
 	}
 	elseif($type1 == "Thunderstorm"){
-		$tpp = 'طوفانی ☔☔☔☔';
+		$tpp = 'طوفانی 🌪';
 file_put_contents('type.txt',$tpp);
 	}
 	elseif($type1 == "Mist"){
