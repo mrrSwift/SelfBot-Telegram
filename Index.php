@@ -664,7 +664,7 @@ yield $MadelineProto->messages->editMessage(['peer' => $peer, 'id' => $msg_id +1
 
 yield $MadelineProto->messages->editMessage(['peer' => $peer, 'id' => $msg_id +1, 'message' => '💣_🏎']);
 
-yield $MadelineProto->messages->editMessage(['peer' => $peer, 'id' => $msg_id +1, 'message' => '💥ZART💥']);
+yield $MadelineProto->messages->editMessage(['peer' => $peer, 'id' => $msg_id +1, 'message' => '💥Kobs💥']);
 }
 
 
