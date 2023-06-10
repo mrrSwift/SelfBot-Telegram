@@ -1,4 +1,4 @@
-# SelfBot-Telegram
+# SelfBot-Telegram (Update coming soon)
 
 سلف بات تلگرام به زبان فارسی
  
