@@ -10,7 +10,7 @@
  -----------------------------------------
 ## How to use a robot
 
--Upload the code to the host
+-Upload the code to the host (Now need to download old vers of MadelineProto)
 
 -Open the file in your browser and enter your number along with the country code (ex: 098 123 456 7899)
 
